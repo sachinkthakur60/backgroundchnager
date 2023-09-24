@@ -5,6 +5,7 @@ function App() {
 
   return (
     <div className="w-full h-screen duration-200" style={{backgroundColor:color}}>
+      <h1 className="text-white font-extrabold flex justify-center px-5 py-10 text-2xl">Background Changer</h1>
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
         <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white rounded-xl px-3 py-2" >
           <button onClick={() => setColor("olive")} className="outline-none px-4 text-white py-1 shadow-lg rounded-2xl " style={{backgroundColor:"olive"}}>Olive</button>
